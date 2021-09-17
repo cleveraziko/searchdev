@@ -1,0 +1,18 @@
+{% comment %} {% extends 'base.html' %}
+{% load static %} {% endcomment %}
+
+
+
+<div>
+    <h1>{{post.title}}</h1>
+    <img src="{{post.image.url}}" alt="{{post.title}}">
+    <p>{{post.excerpt}}</p>
+    <hr>
+    <p>{{post.content}}</p>
+    <time> {{post.date}} </time>
+
+
+
+
+
+</div>
